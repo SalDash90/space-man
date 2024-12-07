@@ -1,20 +1,126 @@
-body{ 
-    display: flex;
+* {
     margin: 0;
-    justify-content: space-around;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Images/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
-    gap: 5px;
-
+    height: 100vh;
+    justify-content: flex-start;
 }
 
-.Message-Container {
-    min-height: 20px;
+/* Title Styling */
+h1 {
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 20px;
 }
+
+#Game-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    
+}
+
+.game-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hint,
+.Lives {
+    font-size: 18px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 3px rgb(8, 73, 163);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: wheat;
+}
+
 #Guessed-Wrod {
     display: flex;
     flex-direction: row;
     gap: 10px;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 3px rgb(8, 73, 163);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: wheat;
+}
+
+.Letters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 3px rgb(8, 73, 163);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Letter-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     
+}
+
+.letter {
+    padding: 10px;
+    background-color: rgba(72, 72, 72, 0.5);
+    border: solid 3px rgb(8, 73, 163);
+    border-radius: 2px;
+    margin: 5px;
+    color: wheat;
+    
+}
+
+/* Message Container Styling */
+.Message-Container {
+    min-height: 20px;
+    font-size: 24px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* Restart Button */
+#Restart {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: rgb(8, 73, 163);
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#Restart:hover {
+    background-color: rgb(6, 54, 120);
+}
+
+#instructions {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 3px rgb(8, 73, 163);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: wheat; 
 }
