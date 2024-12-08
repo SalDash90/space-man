@@ -50,6 +50,7 @@ const setupGame = () => {
   messageContainerElement.textContent = ""  // Clear any messages
 }
 
+// add emojis to simble lives 
 const updateLivesDisplay = () => {
   let livesDisplay = "🏎️".repeat(lives) + "💀".repeat(5 - lives)
   livesElement.textContent = livesDisplay

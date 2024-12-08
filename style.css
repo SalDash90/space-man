@@ -52,6 +52,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     color: wheat;
+    font-size: 25px;
 }
 
 #Guessed-Wrod {
@@ -64,6 +65,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     color: wheat;
+    font-size: 25px;
 }
 
 .Letters {
@@ -90,7 +92,7 @@ h1 {
     border-radius: 2px;
     margin: 5px;
     color: wheat;
-    
+    font-weight: bold;
 }
 
 /* Message Container Styling */
@@ -99,6 +101,10 @@ h1 {
     font-size: 24px;
     color: red;
     margin-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.925);
+    border: solid 3px rgb(8, 73, 163);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Restart Button */
@@ -118,9 +124,13 @@ h1 {
 }
 
 #instructions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 3px rgb(8, 73, 163);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     color: wheat; 
+    font-size: 20px;
 }
