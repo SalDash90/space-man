@@ -11,7 +11,7 @@ _A brief description of your game goes here. Share what the game does and any in
 
 ### Play the Game
 
-[Deployed Game Link](https://your-game-link.com/)
+[Deployed Game Link]([https://your-game-link.com/](https://saldash90.github.io/space-man/))
 
 ### How to Play
 
