@@ -1,9 +1,9 @@
 # [Salman's Space Man] 🎮
 
-_A brief description of your game goes here. Share what the game does and any interesting background info about why you created it._
+A car theamed hang-man game.
 
 
-![Screenshot or Logo](https://website.com/c/path/to/screenshot-or-logo.png)  
+![Screenshot or Logo](https://i.ibb.co/DfHCJGn/game.png)  
 
 ----------
 
@@ -11,7 +11,7 @@ _A brief description of your game goes here. Share what the game does and any in
 
 ### Play the Game
 
-[Deployed Game Link]([https://your-game-link.com/](https://saldash90.github.io/space-man/))
+[Deployed Game Link](https://saldash90.github.io/space-man/)
 
 ### How to Play
 
@@ -32,7 +32,7 @@ Click the "Restart🔄️" button to start a new round of the game with a fresh 
 
 ### Planning Materials
 
-[View Planning Documents]([https://your-planning-doc-link.com/](https://trello.com/invite/b/674495a83d4fb750f4bbdef3/ATTIb76f04d115ffa5a775397719269226bf88692DC3/salmans-space-man))
+[View Planning Documents](https://trello.com/invite/b/674495a83d4fb750f4bbdef3/ATTIb76f04d115ffa5a775397719269226bf88692DC3/salmans-space-man))
 
 ----------
 
