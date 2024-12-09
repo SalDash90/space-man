@@ -53,8 +53,6 @@ Click the "Restart🔄️" button to start a new round of the game with a fresh 
 
 ## Next Steps
 
-_Outline planned features or improvements for your game._
-
 -   Add multiplayer functionality
 -   Implement additional levels
 -   Enhance graphics and animations
